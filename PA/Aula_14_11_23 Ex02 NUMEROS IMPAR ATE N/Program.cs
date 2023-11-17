@@ -14,13 +14,13 @@ namespace Aula_14_11_23_Ex02_NUMEROS_IMPAR_ATE_N
             for (int i =1 ; i<= num; i++)
             //for (int i = 1; 1 <= num; i--)
             {
-                if (i % 2 == 0)
+                if (i % 2 >= 0.1)
                 {
-                    Console.WriteLine($"{i } não é impar");
+                    Console.WriteLine($"{i }  é impar");
                 }
                 else
                 {
-                    Console.WriteLine($"{i } é ímpar");
+                    Console.WriteLine();
                 }
                  
 
